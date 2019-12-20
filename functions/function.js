@@ -3,7 +3,8 @@ window.onload = function() {
     while (i<5){
         source="2018/download"+i+".jpg";
         document.getElementById("img"+i).src=source; 
-        i=i+1;   
+        i=i+1;
+        /*This is a test of gitlens*/
     }
     console.log(source);
 }
