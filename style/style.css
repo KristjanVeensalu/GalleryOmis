@@ -6,7 +6,15 @@
     img {
         height: 200px;
         width: 200px;
+        padding: 4px;
     }
+
+    img:hover {
+      transform: scale(1.2);
+      transition-duration: 1.2s;
+      cursor: pointer;
+    }
+
     #firstButton {
         width: 100%;
     }
@@ -26,6 +34,12 @@
       padding: 15px;
     }
     
+    #col-sm-9{
+      background-color: gray;
+      padding-top: 50px;
+    }
+
+
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
